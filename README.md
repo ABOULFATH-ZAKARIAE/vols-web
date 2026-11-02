@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# vols-web
 
-## Getting Started
+[TODO: one sentence — what it does and for whom.]
 
-First, run the development server:
+**Live demo:** [TODO: add Vercel URL] · **Stack:** Next.js, TypeScript, Tailwind CSS
+
+[TODO: add screenshot — docs/screenshot.png]
+
+## Features
+
+- [TODO]
+
+## Tech stack
+
+| Layer      | Technology                    |
+| ---------- | ----------------------------- |
+| Framework  | Next.js (App Router)          |
+| Language   | TypeScript                    |
+| Styling    | Tailwind CSS                  |
+| Validation | Zod                           |
+| Testing    | Vitest, React Testing Library |
+| Hosting    | Vercel                        |
+
+## Getting started
+
+### Prerequisites
+
+Node.js 24 (see `.nvmrc`) and npm.
+
+### Setup
 
 ```bash
+git clone [TODO: repo URL]
+cd vols-web
+npm install
+cp .env.example .env.local   # then fill in real values
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command                 | What it does                          |
+| ----------------------- | ------------------------------------- |
+| `npm run dev`           | Start the dev server                  |
+| `npm run lint`          | Lint the code                         |
+| `npm run typecheck`     | Check types                           |
+| `npm test`              | Run tests                             |
+| `npm run test:coverage` | Run tests with coverage (80% minimum) |
+| `npm run build`         | Production build                      |
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Zakariae Aboulfath** · Full Stack Developer
+[Portfolio]([TODO]) · [LinkedIn](https://www.linkedin.com/in/zakariae-aboulfath-b90715174) · [GitHub](https://github.com/ABOULFATH-ZAKARIAE)
